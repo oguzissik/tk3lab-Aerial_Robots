@@ -14,7 +14,6 @@ LOG_DIR = os.path.join(os.environ['TK3LAB_WS'], 'logs', '01a-model', 'hexa-ua')
 # Allocation matrix computed from model.sdf rotor poses
 # G is 6x8 (6 wrench components, 8 rotor slots — last 2 columns zero)
 
-#DOES NOT WORK
 
 G = [
 -0.00031826,  0.00013418, -0.00013417,  0.00031826,  0.00045243, -0.00045243,  0.0, 0.0,
