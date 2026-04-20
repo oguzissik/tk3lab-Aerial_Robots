@@ -9,11 +9,11 @@ What this script does:
     3. Integrate dynamic model with RK4 (dt = 1ms)
     4. Normalize quaternion
     5. Apply ground reaction
-    6. Repeat → produces new state x at each time step
+    6. Repeat -> produces new state x at each time step
 
 Two tests as required by PDF:
-    - Test 1: lifting force = weight force (mg)  → drone hovers, z stays constant
-    - Test 2: lifting force = weight force + 1N  → drone slowly climbs
+    - Test 1: lifting force = weight force (mg)  -> drone hovers, z stays constant
+    - Test 2: lifting force = weight force + 1N  -> drone slowly climbs
 
 No python-genomix, no GenoM3 components.
 Only numpy, matplotlib, scipy (for euler angles).
